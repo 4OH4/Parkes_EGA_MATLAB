@@ -1,5 +1,6 @@
 # Parkes_EGA_MATLAB
 MATLAB function for Parkes Error Grid Analysis on blood glucose samples
+
 Rupert Thomas, 2016
 
 For performance assessment of a method of blood glucose concentration
@@ -25,3 +26,7 @@ instead.
 In the original Parkes paper, the grid coordinates were not
 mathematically specified, so the data here has been taken from:
 'Technical Aspects of the Parkes Error Grid' - Andreas Pfützner et al., 2013 
+
+Parkes_EGA_boundaries_Type1.m contains the boundary vertices (for the Type 1 grid).
+Parkes_EGA_identify.m does the main bit of work identifying which region each point is in.
+Parkes_EGA_demo.m show how to call the function, and does a bit of plotting.
