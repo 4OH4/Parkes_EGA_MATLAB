@@ -28,8 +28,16 @@ assert(all(inD == [0,0,0,0,0,1,1,0,0,0,0,0,0,0]));
 assert(all(inE == [0,0,0,0,0,0,0,1,0,0,0,0,0,0]));
 assert(all(OOR == [0,0,0,0,0,0,0,0,1,1,1,1,1,1]));
 
+disp(['Region A: ', num2str(sum(inA))]);
+disp(['Region B: ', num2str(sum(inB))]);
+disp(['Region C: ', num2str(sum(inC))]);
+disp(['Region D: ', num2str(sum(inD))]);
+disp(['Region E: ', num2str(sum(inE))]);
+disp(['Out of range: ', num2str(sum(OOR))]);
+
+
 % Get boundary data
-Parkes_EGA_boundaries;
+Parkes_EGA_boundaries_Type1;
 
 % Plot boundaries
 figure; hold on; grid on; xlim([0,550]); ylim([0,550]);
