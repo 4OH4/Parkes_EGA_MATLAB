@@ -29,4 +29,6 @@ mathematically specified, so the data here has been taken from:
 
 Parkes_EGA_boundaries_Type1.m contains the boundary vertices (for the Type 1 grid).
 Parkes_EGA_identify.m does the main bit of work identifying which region each point is in.
-Parkes_EGA_demo.m show how to call the function, and does a bit of plotting.
+Parkes_EGA_demo.m show how to call the function, and does a bit of plotting:
+
+![Parkes_EGA_demo.m - example output](output.png "Parkes_EGA_demo.m - example output")
